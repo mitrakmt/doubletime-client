@@ -7,8 +7,8 @@ const TimesheetRow = (props) => (
 			<h3 className="billingTo-client">Client name</h3>
 			<h4 className="billingTo-project">Project name</h4>
 		</div>
-		{props.workingDays.map(day => (
-			<TimeBox hours={day.hours} note={day.note} />
+		{props.rowEntries.map(day => (
+			<TimeBox hours={day.hours} key={`${day.hours}${day.note}`} note={day.note} />
 		))}
 	</div>
 );
