@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimeBox = props => (
 	<div className="timeBox">
-		<span>{props.hours}</span>
+		<input type="text" value={props.hours} />
 		<span>{props.note}</span>
 	</div>
 );
