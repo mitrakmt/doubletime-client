@@ -1,8 +1,11 @@
 import React from 'react';
+import { Text } from '@blueprintjs/core';
 
 const DateRange = () => (
 	<div className="dateRange">
-		<input type="text" value="Thursday January 1st" />
+		<Text>
+			Thursday January 1st
+		</Text>
 		<button>Back</button>
 		<button>Forward</button>
 		<button>Today</button>
