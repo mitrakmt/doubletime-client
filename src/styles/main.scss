@@ -1,3 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css');
-@import "~@blueprintjs/core/dist/blueprint.css";
 @import "node_modules/@blueprintjs/core/dist/variables.scss";
+@import 'styles/variables';
+@import "~@blueprintjs/core/dist/blueprint.css";
+@import 'styles/typography';
+

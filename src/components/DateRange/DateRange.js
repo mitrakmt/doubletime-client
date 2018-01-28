@@ -1,14 +1,17 @@
 import React from 'react';
-import { Text } from '@blueprintjs/core';
+import { Button, ButtonGroup, Text } from '@blueprintjs/core';
 
 const DateRange = () => (
 	<div className="dateRange">
 		<Text>
-			Thursday January 1st
+			Monday January 1st - Saturday January 6th
 		</Text>
-		<button>Back</button>
-		<button>Forward</button>
-		<button>Today</button>
+		<ButtonGroup minimal={true} large={false}>
+			<Button className="pt-intent-primary" iconName="calendar" intent="primary" text="Pick a date" />
+			<Button intent="danger" text="Back" />
+			<Button text="This week" />
+			<Button intent="warning" text="Forward" />
+		</ButtonGroup>
 	</div>
 );
 

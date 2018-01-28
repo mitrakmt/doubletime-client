@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
+// Set a baseline across elements in case other classes from Blueprint override the family
+body,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+p,
+span {
+	font-family: $font-family;
+}
+
+body, html {
+	font-size: $font-size-normal;
+}
